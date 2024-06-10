@@ -1,6 +1,6 @@
 #Locão Automóvel
 
-Este exercicio consiste em um banco de dados comum, porém normalizado, isto é, segue as rformas normais 1FN, 2FN e 3FN.
+Este exercicio consiste em um banco de dados comum, porém normalizado, isto é, segue as formas normais 1FN, 2FN e 3FN.
 
 Este banco de dados é ultilizado em um sistema de locação de automoveis onde há 3 tabelas,
 uma para armazenar veículos, uma para clientes e outra para armazenar os dados de locação.
