@@ -23,7 +23,7 @@ create table cliente(
 
 create table locação(
 
-	id			int	primary key auto_increment,
+	id		int	primary key auto_increment,
     diaria		double,
     dias		int,
 	total		double generated always as (diaria*dias) stored,
@@ -34,7 +34,7 @@ create table locação(
     foreign key (idveiculo) references veiculo(placa)
 );
 
-Com as tabelas criadas o próximo passo é  ainserção dos clientes veiculos e as locações que cada cliente realizou
+Com as tabelas criadas o próximo passo é  a inserção dos clientes veiculos e as locações que cada cliente realizou
 
 
 --------------------------------------------INSERÇÕES----------------------------------------------------
